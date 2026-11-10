@@ -1,68 +1,40 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Qt build files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
+*.so
 *.a
+*.dll
 *.lib
-
-# Executables
+*.exp
+*.pdb
 *.exe
-*.out
-*.app
+*.tmp
+*.class
+*.jar
+*.moc
+*.rcc
 
 # Build directories
 build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
 CMakeCache.txt
+CMakeFiles/
 cmake_install.cmake
-Makefile
 install_manifest.txt
-compile_commands.json
 
-# Temporary files
-*.tmp
+# IDE files
+*.vcxproj*
+*.sln
+*.pro
+*.user
+*.suo
+*.opensdf
+*.pydevproject
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
 *.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
